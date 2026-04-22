@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms </title>
+</head>
+<body>
+    <h1>Forms for apply for TA</h1>
+    <form action="/submit.php" method="post">
+        <!-- div is use to put the code in block -->
+        <div>
+        <label for="Username">Enter your username</label>
+        <input type="text" id="Username" name="Username" placeholder="Enter your Username" autofocus>
+        </div>
+
+        <div>
+        <input type="radio" id="Male" name="Gender" placeholder="Male">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" placeholder="Female">
+        <label for="Female">Female</label>
+        </div>
+
+        <div>
+        <input type="checkbox" id="Subscribe" name="Subscribe" value="Yes">
+        <label for="Subscribe">Subscribe to newsletter</label>
+        </div>
+
+        <div>
+        <label for="comment">Enter your comment</label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+
+        <div>
+            <select name="Fruits" >
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+</html>
+
+
+<!-- here id is the unique identifier 
+    first we create id in input tag then use it in label tag -->
+
+<!-- what we write in label come before the input placeholder -->
