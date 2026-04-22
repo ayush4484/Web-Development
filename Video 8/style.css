@@ -1,0 +1,13 @@
+p{
+    background-color:bisque;
+}
+a{
+    background-color: chocolate;
+}
+/* here paragraph is block element and anker tag is inline element */
+div{
+    background-color: aquamarine;
+}
+span{
+    background-color: chartreuse;
+}
